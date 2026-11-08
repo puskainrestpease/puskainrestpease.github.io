@@ -1,24 +1,33 @@
-# karvan | Developer Portfolio
+# Developer Portfolio
 
-Минималистичный портфолио-сайт в зелено-черных тонах с акцентом на контент
+A static personal portfolio website built with HTML and CSS and published through GitHub Pages.
 
-![Website Preview](https://img.shields.io/badge/Status-Online-00FF88?style=flat-square) 
-![License](https://img.shields.io/badge/License-MIT-00FF88?style=flat-square)
+## Contents
 
-## 🛠 Технологии
-- Чистый HTML5/CSS3
-- Адаптивная верстка
-- CSS Анимации
-- GitHub Pages Hosting
+- `index.html` — landing page
+- `portfolio.html` — portfolio section
+- `contact.html` — contact page
+- `style.css` — shared styling
+- `img/` — static image assets
 
-## ✨ Особенности
-- Минималистичный дизайн
-- Плавные переходы
-- Оптимизированная производительность
-- Кросс-браузерная совместимость
+## Local preview
 
+Clone the repository and open `index.html` in a browser, or serve the directory with any static HTTP server.
 
-## 🖥 Локальная установка
-1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/puskainrestpease/site
+git clone https://github.com/puskainrestpease/puskainrestpease.github.io.git
+cd puskainrestpease.github.io
+python -m http.server 8000
+```
+
+Open <http://localhost:8000>.
+
+## Deployment
+
+GitHub Pages serves the site from the repository's configured publishing branch. Changes pushed to that branch are published by GitHub Pages.
+
+## Technology
+
+- HTML5
+- CSS3
+- GitHub Pages
